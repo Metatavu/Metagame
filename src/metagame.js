@@ -121,7 +121,12 @@
       this.updateFunction = updateFunction;
       this.status = 'running';
       setTimeout($.proxy(function () {
-        this.updateFunction(this.map, this.player);
+        try {
+         this.updateFunction(this.map, this.player); 
+        } catch (error) {
+          this.player.onFail(error);
+          this.stop();
+        }
       }, this), 500);
     }
   }
