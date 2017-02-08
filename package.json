@@ -1,0 +1,23 @@
+{
+  "name": "metagame",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Metatavu/Metagame.git"
+  },
+  "author": "Metatavu Oy",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Metatavu/Metagame/issues"
+  },
+  "homepage": "https://github.com/Metatavu/Metagame#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}
