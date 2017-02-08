@@ -178,6 +178,7 @@
         new Map(this.options.map),
         new Player(this.options.playerInitialPosition.x, this.options.playerInitialPosition.y, this.options.onFail, this.options.onComplete),
         $('<pre>').appendTo(this.element[0]));
+      this._world.draw();
     },
 
     begin: function (updateFunction) {
